@@ -2,6 +2,10 @@
 
 A modern and responsive SaaS dashboard built with **React** and **TypeScript**, focused on clean UI, scalable component structure, and real-world dashboard patterns.
 
+## 🔗 Live Demo
+https://react-saas-dashboard-sepia.vercel.app/
+
+
 ## 🚀 Features
 - Dashboard layout with sidebar and header
 - Reusable UI components
