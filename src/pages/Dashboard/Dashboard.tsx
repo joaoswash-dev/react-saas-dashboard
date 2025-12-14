@@ -1,4 +1,6 @@
 import { Card } from '../../components/Card/Card';
+import { Table } from '../../components/Table/Table';
+import { users } from '../../services/api';
 import styles from './Dashboard.module.css';
 
 export function Dashboard() {
@@ -10,6 +12,8 @@ export function Dashboard() {
                 <Card title="Subscriptions" value="342" subtitle="+5 new today" />
                 <Card title="Growth" value="18%" subtitle="Stable growth" />
             </div>
+
+            <Table users={users} />
         </div>
     );
 }
